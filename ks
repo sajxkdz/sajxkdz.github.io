@@ -1,15 +1,7 @@
 var _hmt = _hmt || [];
 (function() {
   var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?654eab27971e6f5f4160f5c2462d1659";
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();
-
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?c42b813cc0599cf49ecb7f700191c1dc";
+  hm.src = "https://hm.baidu.com/hm.js?f1d003620b6d4b345e3b50df600ab9fe";
   var s = document.getElementsByTagName("script")[0]; 
   s.parentNode.insertBefore(hm, s);
 })();
